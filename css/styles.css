@@ -1,0 +1,145 @@
+html,
+body, 
+header {
+    font-family: 'Roboto';
+    font-style: normal;
+    height: 100%;
+    
+}
+
+header {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+body {
+    width: 1600px;
+    /*height: 2349px;*/
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+
+.logo-web {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    
+    color: #2196F3;
+    padding: 24px 0 24px 216px;
+}
+
+.logo-studio {
+    color: #000000;
+    padding: 0;
+}
+
+nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    position: absolute;
+    width: 294px;
+    height: 16px;
+    left: 453px;
+    top: 32px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    color: #212121;
+}
+
+.nav-link:hover {
+    color: #2196F3;
+}
+
+.portfolio {
+    margin: 0 50px 0 50px;
+}
+
+.tel {
+    position: absolute;
+    width: 122px;
+    height: 16px;
+    left: 1263px;
+    top: 35px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.tel:hover {
+    color: #2196F3;
+}
+
+.email {
+    position: absolute;
+    width: 135px;
+    height: 16px;
+    left: 1078px;
+    top: 35px;
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.email:hover {
+    color: #2196F3;
+}
+
+.hero {
+    position: absolute;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background: #2F303A;
+}
+
+.hero-title {
+    width: 696px;
+    height: 120px;
+    padding: 200px 452px 280px 452px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.button {
+    position: absolute;
+
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 350px;
+
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    
+    /* rightdisplay: flex;*/
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
