@@ -136,10 +136,161 @@ nav {
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
-    
-    /* rightdisplay: flex;*/
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+}
+
+.destination {
+    position: absolute;
+    width: 1170px;
+    height: 101px;
+    left: 215px;
+    top: 774px;
+}
+
+.destination-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.destination-box {
+    width: 270px;
+    padding-right: 30px;
+}
+
+.right-box {
+    padding: 0px;
+}
+
+.title-item {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.business-photo {
+    position: absolute;
+    width: 1170px;
+    height: 386px;
+    left: 215px;
+    top: 969px;
+}
+
+.business-photo-title {
+    position: relative;
+    width: 378px;
+    height: 42px;
+    left: 391px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+.business-photo-item {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+}
+
+.business-photo-img {
+    padding: 0 30px;
+}
+
+.personal {
+    position: absolute;
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1449px;
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.personal-title {
+    position: relative ;
+    width: 266px;
+    height: 42px;
+    left: 668px;
+    top: 94px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+.block-team {
+    top: 0px;
+}
+
+.team {
+    position: relative;
+    width: 1170px;
+    height: 368px;
+    left: 215px;
+    top: 144px;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.own-data {
+    padding-right: 30px;
+}
+
+.own-data-last {
+    padding-right: 0px;
+}
+
+.name {
+    width: 153px;
+    height: 19px;
+    padding-left: 60px;
+    padding-top: 30px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+.job-name {
+    width: 140px;
+    height: 19px;
+    padding-left: 70px;
+    padding-top: 10px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #757575;
 }
