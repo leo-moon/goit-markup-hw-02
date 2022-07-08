@@ -220,7 +220,7 @@ nav {
     height: 648px;
     left: 0px;
     top: 1449px;
-    background-color: rgba(0, 0, 0, 0.02);
+    background-color: #F5F4FA;
 }
 
 .personal-title {
@@ -293,4 +293,13 @@ nav {
     letter-spacing: 0.03em;
 
     color: #757575;
+}
+
+.footer {
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2097px;
+    background-color: #2F303A;
 }
