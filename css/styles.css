@@ -36,16 +36,6 @@ body {
     left: 215px;
 }
 
-.logo-header {
-    
-    left: 215px;
-    
-    /*margin-top: 27px;padding: 24px 0 24px 216px;
-    left: 215px;padding-left: 215px;
-    padding-top: 27px;
-    top: 27px; */
-}
-
 .logo-web {
     font-family: 'Raleway';
     font-style: normal;
@@ -56,7 +46,6 @@ body {
     text-decoration: none;
     
     color: #2196F3;
-    /**/
 }
 
 .logo-studio {
@@ -73,13 +62,12 @@ nav {
     width: 294px;
     height: 16px;
     left: 453px;
-    top: 32px;
 }
 
 .navigation {
     display: flex;
     flex-direction: row;
-    color: #212121;
+    height: 16px;
 }
 
 .nav-link {
@@ -90,8 +78,17 @@ nav {
     color: #2196F3;
 }
 
+.studio {
+    width: 49px;
+    
+}
 .portfolio {
-    margin: 0 50px 0 50px;
+    width: 77px;
+    margin: 0 50px;
+}
+
+.contacts {
+    width: 77px;
 }
 
 .tel {
@@ -99,7 +96,7 @@ nav {
     width: 122px;
     height: 16px;
     left: 1263px;
-    top: 35px;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -108,7 +105,7 @@ nav {
     text-decoration: none;
 }
 
-.tel:hover, 
+/*.tel:hover, */
 .email:hover {
     color: #2196F3;
 }
@@ -169,6 +166,10 @@ nav {
     color: #FFFFFF;
 }
 
+.button:hover {
+    background-color: tomato;
+}
+
 .destination {
     position: absolute;
     width: 1170px;
@@ -187,7 +188,7 @@ nav {
     padding-right: 30px;
 }
 
-.right-box {
+.destination-right-box {
     padding: 0px;
 }
 
@@ -278,6 +279,7 @@ nav {
     left: 215px;
     top: 144px;
     
+    align-items: center;
     display: flex;
     flex-direction: row;
 }
@@ -286,7 +288,7 @@ nav {
     padding-right: 30px;
 }
 
-.own-data-last {
+.own-data-right {
     padding-right: 0px;
 }
 
@@ -307,7 +309,7 @@ nav {
 }
 
 .job-name {
-    width: 140px;
+    width: 147px;
     height: 19px;
     padding-left: 70px;
     padding-top: 10px;
@@ -316,6 +318,7 @@ nav {
     font-size: 16px;
     line-height: 19px;
 
+    align-items: center;
     text-align: center;
     letter-spacing: 0.03em;
 
@@ -362,5 +365,5 @@ nav {
 }
 
 .email-footer {
-    
+    padding: 10px 0 8px 0;
 }
