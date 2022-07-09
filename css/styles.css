@@ -21,6 +21,31 @@ body {
     position: relative;
 }
 
+.box {
+    position: absolute;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 3px;
+    align-items: center;
+}
+
+.logo {position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+}
+
+.logo-header {
+    
+    left: 215px;
+    
+    /*margin-top: 27px;padding: 24px 0 24px 216px;
+    left: 215px;padding-left: 215px;
+    padding-top: 27px;
+    top: 27px; */
+}
+
 .logo-web {
     font-family: 'Raleway';
     font-style: normal;
@@ -28,14 +53,14 @@ body {
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
+    text-decoration: none;
     
     color: #2196F3;
-    padding: 24px 0 24px 216px;
+    /**/
 }
 
 .logo-studio {
     color: #000000;
-    padding: 0;
 }
 
 nav {
@@ -57,6 +82,10 @@ nav {
     color: #212121;
 }
 
+.nav-link {
+    text-decoration: none;
+}
+
 .nav-link:hover {
     color: #2196F3;
 }
@@ -76,9 +105,11 @@ nav {
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #757575;
+    text-decoration: none;
 }
 
-.tel:hover {
+.tel:hover, 
+.email:hover {
     color: #2196F3;
 }
 
@@ -87,16 +118,12 @@ nav {
     width: 135px;
     height: 16px;
     left: 1078px;
-    top: 35px;
     color: #757575;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-}
-
-.email:hover {
-    color: #2196F3;
+    text-decoration: none;
 }
 
 .hero {
@@ -302,4 +329,38 @@ nav {
     left: 0px;
     top: 2097px;
     background-color: #2F303A;
+}
+
+.logo-footer {
+    position: relative;
+    top: 60px;
+}
+
+.logo-studio-footer {
+    color: #FFFFFF;
+}
+
+.address {
+    position: relative;
+    width: 231px;
+    height: 81px;
+    left: 215px;
+    top: 84px;
+    color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    flex-direction: column;
+}
+
+.address-link {
+    width: 231px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.email-footer {
+    
 }
