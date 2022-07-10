@@ -37,6 +37,11 @@
     color: #FFFFFF;
 }
 
+.port-button:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
 .port-all {
     width: 73px;
 }

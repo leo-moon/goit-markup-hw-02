@@ -79,6 +79,10 @@ nav {
     color: #2196F3;
 }
 
+.nav-link:focus {
+    color: #2196F3;
+}
+
 .studio {
     width: 49px;
     
@@ -108,6 +112,10 @@ nav {
 
 /*.tel:hover, */
 .email:hover {
+    color: #2196F3;
+}
+
+.email:focus {
     color: #2196F3;
 }
 
@@ -167,8 +175,11 @@ nav {
     color: #FFFFFF;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
     background-color: tomato;
+    border: 20px;
+    border-color: #FFFFFF;
 }
 
 .destination {
@@ -366,7 +377,7 @@ nav {
 }
 
 .email-footer {
-    padding: 10px 0 8px 0;
+    margin: 10px 0 8px 0;
 }
 
 .address-city {
