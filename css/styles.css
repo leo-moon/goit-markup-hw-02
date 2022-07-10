@@ -4,18 +4,19 @@ header {
     font-family: 'Roboto';
     font-style: normal;
     height: 100%;
-    
+    color: #212121;
 }
 
 header {
     height: 80px;
     display: flex;
     flex-direction: row;
+    color: #ECECEC;
 }
 
 body {
     width: 1600px;
-    /*height: 2349px;*/
+    height: 2349px;
     margin: 0 auto;
     height: 100%;
     position: relative;
@@ -326,11 +327,11 @@ nav {
 }
 
 .footer {
-    position: absolute;
+    position: relative;
     width: 1600px;
     height: 252px;
-    left: 0px;
     top: 2097px;
+    left: 0px;
     background-color: #2F303A;
 }
 
@@ -366,4 +367,8 @@ nav {
 
 .email-footer {
     padding: 10px 0 8px 0;
+}
+
+.address-city {
+    color: #FFFFFF;
 }

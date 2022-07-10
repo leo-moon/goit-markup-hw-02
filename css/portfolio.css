@@ -1,0 +1,112 @@
+.port-main {
+    width: 1170px;
+    height: 1360px;
+    margin: 94px 215px 0 215px;
+}
+
+.port-filters {   
+    width: 611px;
+    height: 54px;
+    left: 495px;
+    top: 174px;
+    padding-left: 280px;
+    margin-bottom: 34px;
+}
+
+.port-button {
+    height: 38px;
+    background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    margin-right: 4px;
+    /* identical to box height, or 162% */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+.port-button:last-child {
+    margin-right: 0;
+}
+
+.port-button:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.port-all {
+    width: 73px;
+}
+
+.port-web {
+    width: 128px;
+}
+
+.port-apps {
+    width: 145px;
+}
+
+.port-design {
+    width: 101px;
+}
+
+.port-marketing {
+    width: 130px;
+}
+
+.port-project:nth-child(3n) {
+    margin-right: 0;
+    
+}
+
+.port-project {
+    display: inline-block;
+    width: 370px;
+    height: 404px;
+    margin-right: 26px;
+    margin-bottom: 30px;
+    color: #EEEEEE;
+}
+
+.photo {
+    width: 370px;
+    height: 294px;
+}
+.port-title-link {
+    width: 322px;
+    height: 70px;
+    margin: 20px 24px;
+}
+
+.port-title {
+    width: 322px;
+    height: 36px;
+    margin-bottom: 4px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+
+    color: #212121;
+}
+
+.port-link {
+    width: 322px;
+    height: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+
+
+
+#port-footer {
+    position: relative ;
+    top: 93px;
+}
