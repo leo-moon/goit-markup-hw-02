@@ -1,17 +1,12 @@
+:root {
+    --accent-color: #2196F3;
+}
+
 html,
 body, 
 header {
     font-family: 'Roboto';
     font-style: normal;
-    height: 100%;
-    color: #212121;
-}
-
-header {
-    height: 80px;
-    display: flex;
-    flex-direction: row;
-    color: #ECECEC;
 }
 
 body {
@@ -19,7 +14,15 @@ body {
     height: 2349px;
     margin: 0 auto;
     height: 100%;
-    position: relative;
+}
+
+/*==================== HEADER ====================*/
+
+header {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    color: #ECECEC;
 }
 
 .box {
@@ -31,21 +34,21 @@ body {
     align-items: center;
 }
 
-.logo {position: absolute;
+.logo {
+    position: absolute;
     width: 145px;
     height: 31px;
     left: 215px;
 }
 
 .logo-web {
-    font-family: 'Raleway';
-    font-style: normal;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
-    
+
     color: #2196F3;
 }
 
@@ -54,15 +57,16 @@ body {
 }
 
 nav {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #212121;
     position: absolute;
     width: 294px;
     height: 16px;
     left: 453px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: #212121;
 }
 
 .navigation {
@@ -75,25 +79,39 @@ nav {
     text-decoration: none;
 }
 
-.nav-link:hover {
-    color: #2196F3;
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--accent-color);
 }
 
-.nav-link:focus {
-    color: #2196F3;
-}
 
 .studio {
     width: 49px;
-    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #212121;
 }
+
 .portfolio {
     width: 77px;
     margin: 0 50px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #212121;
 }
 
 .contacts {
     width: 77px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #212121;
 }
 
 .tel {
@@ -104,19 +122,16 @@ nav {
 
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
     text-decoration: none;
 }
 
 /*.tel:hover, */
-.email:hover {
-    color: #2196F3;
-}
-
+.email:hover,
 .email:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .email {
@@ -131,7 +146,9 @@ nav {
     letter-spacing: 0.02em;
     text-decoration: none;
 }
+/*==================== /HEADER ====================*/
 
+/*==================== MAIN ====================*/
 .hero {
     position: absolute;
     width: 1600px;
@@ -147,7 +164,7 @@ nav {
     padding: 200px 452px 280px 452px;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -156,7 +173,6 @@ nav {
 
 .button {
     position: absolute;
-
     width: 200px;
     height: 50px;
     left: 700px;
@@ -168,7 +184,7 @@ nav {
 
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
@@ -178,7 +194,6 @@ nav {
 .button:hover,
 .button:focus {
     background-color: tomato;
-    border: 20px;
     border-color: #FFFFFF;
 }
 
@@ -207,7 +222,7 @@ nav {
 .title-item {
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
@@ -216,7 +231,7 @@ nav {
 .link {
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
 }
@@ -238,7 +253,7 @@ nav {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
 
     color: #212121;
@@ -273,7 +288,7 @@ nav {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
 
@@ -296,12 +311,12 @@ nav {
     flex-direction: row;
 }
 
-.own-data {
-    padding-right: 30px;
+.team:last-child {
+    padding-right: 0px;
 }
 
-.own-data-right {
-    padding-right: 0px;
+.own-data {
+    padding-right: 30px;
 }
 
 .name {
@@ -312,7 +327,7 @@ nav {
 
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.17;
     
     text-align: center;
     letter-spacing: 0.03em;
@@ -328,7 +343,7 @@ nav {
 
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
 
     align-items: center;
     text-align: center;
@@ -336,7 +351,9 @@ nav {
 
     color: #757575;
 }
+/*==================== /MAIN ====================*/
 
+/*==================== FOOTER ====================*/
 .footer {
     position: relative;
     width: 1600px;
@@ -371,7 +388,7 @@ nav {
     height: 21px;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.74;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
 }
@@ -383,3 +400,9 @@ nav {
 .address-city {
     color: #FFFFFF;
 }
+/*==================== /FOOTER ====================*/
+
+
+
+
+

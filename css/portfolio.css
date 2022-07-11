@@ -4,6 +4,7 @@
     margin: 94px 215px 0 215px;
 }
 
+/*==================== MAIN ====================*/
 .port-filters {   
     width: 611px;
     height: 54px;
@@ -18,10 +19,8 @@
     background-color: #F5F4FA;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.63;  
     margin-right: 4px;
-    /* identical to box height, or 162% */
-
     text-align: center;
     letter-spacing: 0.03em;
 
@@ -32,11 +31,7 @@
     margin-right: 0;
 }
 
-.port-button:hover {
-    background-color: #2196F3;
-    color: #FFFFFF;
-}
-
+.port-button:hover,
 .port-button:focus {
     background-color: #2196F3;
     color: #FFFFFF;
@@ -62,11 +57,6 @@
     width: 130px;
 }
 
-.port-project:nth-child(3n) {
-    margin-right: 0;
-    
-}
-
 .port-project {
     display: inline-block;
     width: 370px;
@@ -74,6 +64,10 @@
     margin-right: 26px;
     margin-bottom: 30px;
     color: #EEEEEE;
+}
+
+.port-project:nth-child(3n) {
+    margin-right: 0;
 }
 
 .photo {
@@ -92,7 +86,7 @@
     margin-bottom: 4px;
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
 
     color: #212121;
@@ -103,15 +97,17 @@
     height: 30px;
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88;
     letter-spacing: 0.03em;
 
     color: #757575;
 }
 
+/*==================== /MAIN ====================*/
 
-
+/*==================== FOOTER ====================*/
 #port-footer {
     position: relative ;
     top: 93px;
 }
+/*==================== /FOOTER ====================*/
