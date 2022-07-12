@@ -89,7 +89,7 @@ nav {
     width: 49px;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 
     color: #212121;
@@ -99,7 +99,7 @@ nav {
     width: 77px;
     margin: 0 50px;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 
     color: #212121;
@@ -108,7 +108,7 @@ nav {
 .contacts {
     width: 77px;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 
     color: #212121;
