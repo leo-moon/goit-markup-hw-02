@@ -17,14 +17,17 @@
 .port-button {
     height: 38px;
     background-color: #F5F4FA;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 16px;
-    line-height: 1.63;  
-    margin-right: 4px;
-    text-align: center;
-    letter-spacing: 0.03em;
+    line-height: 1.875;
+    /* identical to box height, or 188% */
 
-    color: #212121;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF
 }
 
 .port-button:last-child {
